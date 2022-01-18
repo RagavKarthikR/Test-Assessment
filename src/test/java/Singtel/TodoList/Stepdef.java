@@ -28,7 +28,7 @@ public class Stepdef extends Utilities {
 
   @Given("^Initiate the chrome driver$")
   public void initiate_the_chrome_driver() {
-    System.setProperty("webdriver.chrome.driver", "C://Users//Harshitha//Downloads//Softwares//chromedriver96.exe");
+    System.setProperty("webdriver.chrome.driver", driverpath);
     driver = new ChromeDriver();
   }
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.596226">
+<testcase classname="Singtel Todolist Validation" name="Verify the landing page of todomvc" time="2.596226">
+<system-out><![CDATA[Given Initiate the chrome driver............................................passed
+When Navigate to Todolist url...............................................passed
+Then Verify the landing page of Todolist....................................passed
+And Verify whether input text box is visible................................passed
+]]></system-out>
+</testcase>
+</testsuite>

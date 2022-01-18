@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the landing page of todomvc",
+        "description": "",
+        "id": "singtel-todolist-validation;verify-the-landing-page-of-todomvc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2118809300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initiate the chrome driver",
+            "match": {
+              "location": "Stepdef.initiate_the_chrome_driver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393805900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Todolist url",
+            "match": {
+              "location": "Stepdef.navigate_to_Todolist_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6773700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the landing page of Todolist",
+            "match": {
+              "location": "Stepdef.verify_the_landing_page_of_Todolist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76837200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify whether input text box is visible",
+            "match": {
+              "location": "Stepdef.verify_whether_input_text_box_is_visible()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Singtel Todolist Validation",
+    "description": "",
+    "id": "singtel-todolist-validation",
+    "keyword": "Feature",
+    "uri": "todolist.feature"
+  }
+]

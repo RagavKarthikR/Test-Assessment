@@ -6,10 +6,18 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C://Users//Harshitha//eclipse-workspace//TodoList//src//test//resources//Fetature//todolist.feature"
-		,plugin = { "pretty" }
+		
+		features = "src/test/resources/Fetature",
+		glue = {"Singtel.TodoList"},
+		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
+				"junit:target/cucumber-reports/Cucumber.xml",
+				"html:target/cucumber-reports"}
 		)
+
+
+
 
 public class RunTest {
 }
+
 

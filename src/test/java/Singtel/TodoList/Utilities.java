@@ -25,7 +25,7 @@ public class Utilities {
 	  public static int count_total_task;
 	  public static int actual_number;
 	  public static int count_beforeRemove;
-	
+	  public static String driverpath= System.getProperty("user.dir") + "//" + "src//test//resources//"	+ "chromedriver96.exe";
 	
 	public static void retrive_count_completedTask()  {
 		 try {
